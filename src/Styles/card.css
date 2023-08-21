@@ -1,0 +1,46 @@
+.logements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #F7F7F7;
+  border-radius: 25px;
+  gap: 3%;
+  padding: 5%;
+}
+
+.logements a {
+   text-decoration: none;
+}
+
+
+.fiche-logement {
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  transition: 0.3s;
+  width: 30%;
+  padding-bottom: 150px;
+  
+}
+
+.fiche-logement img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  height: 90%;
+}
+
+.fiche-logement h3 {
+  display: flex;
+  height: 65px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 20px;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.fiche-logement:hover {
+  box-shadow: 0px 0px 10px #473030;
+  cursor: pointer;
+}

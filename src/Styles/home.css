@@ -1,0 +1,26 @@
+.HomeFond {
+    background-image: url('../Assets/FondHome.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 1750px;
+    height: 223px;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.HomeFond h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+
+
+}
+
+.card-container {
+    margin: 5%;
+}

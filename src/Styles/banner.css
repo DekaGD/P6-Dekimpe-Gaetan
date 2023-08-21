@@ -1,0 +1,41 @@
+.Logo {
+   margin-left: 100px;
+   margin-top: 40px;
+   height: 68px;
+   width: 210.32px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .accueils,
+.infos {
+  display: flex;
+  padding-top: 57px;
+  text-decoration: underline;
+  text-decoration-color: #FF6060;
+}
+
+.accueil_infos {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
+.accueil {
+    width: 136px;
+    height: 34px;
+    color: #FF6060;
+    text-decoration: none;
+}
+
+.info {
+    color: #FF6060;
+    text-decoration: none;
+    width: 116px;
+    height: 34px;
+}

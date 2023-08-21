@@ -1,0 +1,112 @@
+
+
+
+.accomodation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.accomodation_content {
+    height: 20%;
+    width: 100%;
+}
+
+.accomodation_content_host {
+    display: flex;
+}
+
+.accomodation_content_host h4 {
+    color: #FF6060;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.accomodation_content_host h1 {
+    color: #FF6060;
+    margin: 0;
+    font-size: 36px;
+}
+
+.accomodation_content_host {
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.accomodation_collapse {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.accomodation_collapse_item {
+    width: 48%;
+}
+
+.collapse___header {
+    width: 50%;
+}
+
+.accomodation_content_infos h1, p {
+    color: #FF6060;
+}
+
+.towns {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.towns button {
+    color: white;
+    border: none;
+    background-color: #FF6060;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.collapse {
+    width: 100%;
+}
+
+.accomodation_content_host_name {
+    display: flex;
+    gap: 10px;
+    color: #FF6060;
+    width: 167px;
+}
+
+.accomodation_content_host_name span {
+    display: flex;
+    text-align: right;
+    font-size: 18px;
+    width: 93px;
+    height: 52px;
+    align-items: center;
+    text-shadow: 0px 0px 5px rgb(180, 166, 166);
+}
+
+.accomodation_content_host_name img {
+  width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px rgb(175, 136, 136);
+}
+
+.accomodation_collapse_item {
+    padding-inline-start: 0%;
+}
+
+main {
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+

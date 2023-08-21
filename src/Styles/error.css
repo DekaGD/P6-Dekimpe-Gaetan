@@ -1,0 +1,30 @@
+.error {
+    color: var(--colorRed);
+}
+
+
+
+.error span {
+    font-size: 288px;
+    color: #FF6060;
+    padding-left: 700px;
+    
+}
+
+.error h2 {
+    font-size: 36px;
+    padding-left: 550px;
+    color: #FF6060;
+}
+
+.error a {
+    color: #FF6060;
+    font-size: 18px;
+    text-decoration: underline;
+    padding-left: 800px;
+    margin-top: 50px;
+}
+
+.error p {
+    padding-top: 150px;
+}

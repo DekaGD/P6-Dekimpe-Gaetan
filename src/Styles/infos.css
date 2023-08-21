@@ -1,0 +1,28 @@
+.background {
+    background-image: url('../Assets/FondInfos.png');
+    width: 1650px;
+    height: 223px;
+    padding-left: 100px;
+    margin-left: 100px;
+    margin-top: 52px;
+    border-radius: 25px;
+    
+}
+
+.background h1 {
+    display: none;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 208px;
+}
+
+.collapse__header {
+    width: 90%;
+}
+
+.visible.collapse {
+    width: 92%;
+}
