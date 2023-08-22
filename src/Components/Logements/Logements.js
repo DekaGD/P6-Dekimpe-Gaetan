@@ -47,9 +47,9 @@ export default function Logements() {
 		<>
 			
 			<main className="accomodation">
+			<Carousel pictures={record.pictures}/>
 				<div className="accomodation_content">
 					<div className="accomodation_content_infos">
-					<Carousel pictures={record.pictures}/>
 						<h1>{dataCurrent[0].title}</h1>
 						<p>{dataCurrent[0].location}</p>
 						<div className="towns">
